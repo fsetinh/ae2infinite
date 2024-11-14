@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "ae2infinite",
+	"version": "${version}",
+	"name": "AE2Infinite",
+	"description": "Adds 2 wireless range boosters for AE2 Wireless Terminals. Inspired by AEInfinityBooster (dev: hexeptiondev). Developed for Fabric support.",
+	"authors": [
+		"Venture"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ae2infinite/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.venture.ae2infinite.AE2Infinite"
+		],
+		"client": [
+			"com.venture.ae2infinite.AE2InfiniteClient"
+		],
+		"fabric-datagen": [
+			"com.venture.ae2infinite.AE2InfiniteDataGenerator"
+		]
+	},
+	"mixins": [
+		"ae2infinite.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"applied-energistics-2": "*"
+	}
+}

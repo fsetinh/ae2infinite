@@ -1,0 +1,8 @@
+{
+  "item_group.ae2infinite.tab": "AE Infinite Booster",
+  "item.ae2infinite.infinite_card": "Infinite Range Booster",
+  "item.ae2infinite.dimension_card": "Dimension Range Booster",
+
+  "item.ae2infinite.infinite_card.tooltip": "Infinite range for your wireless terminal.",
+  "item.ae2infinite.dimension_card.tooltip": "Infinite range, but across all dimensions."
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.venture.ae2infinite.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinRestrictedInputSlot",
+    "MixinWirelessBlockEntity",
+    "MixinWirelessMenu",
+    "MixinWirelessTerminalMenuHost"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
